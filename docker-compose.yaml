@@ -1,6 +1,6 @@
 services:
   catnip:
-    image: nimrod1/cat_gif_site:ver-1.0
+    image: deadnis/Docker_Compose_test:ver-1.0
     build:
       context: .
       dockerfile: Dockerfile
