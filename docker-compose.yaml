@@ -1,5 +1,5 @@
 services:
-  catnip:
+  app:
     image: deadnis/Docker_Compose_test:ver-1.0
     build:
       context: .
