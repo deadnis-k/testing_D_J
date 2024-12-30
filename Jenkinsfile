@@ -79,7 +79,7 @@ pipeline {
                                                      passwordVariable: 'DOCKER_PASSWORD')]) {
                         sh '''
                         echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USER" --password-stdin
-                        docker push deadnis/Docker_Compose_test:ver-1.0
+                        docker push deadnis/docker_compose_test:ver-1.0
                         '''
                     }
                 }
