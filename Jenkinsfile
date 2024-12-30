@@ -43,9 +43,7 @@ pipeline {
                 echo 'Cloning the repository...'
                 sh 'git clone https://github.com/deadnis-k/testing_D_J.git'
 		sh 'ls -a'
-		sh 'git pull'
 		sh 'ls -a'
-
 	    }
         }
 		stage('Copy .env File') {
