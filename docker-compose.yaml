@@ -1,5 +1,9 @@
 services:
+<<<<<<< HEAD
   catnip:
+=======
+  app:
+>>>>>>> 406a5a4667b14ae4712fd99f281323790d3a639f
     image: deadnis/docker_compose_test:ver-1.0
     build:
       context: .
