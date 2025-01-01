@@ -86,8 +86,8 @@ pipeline {
                 echo 'testing...'
                 sh'sleep 25'
                 sh 'curl http://localhost:5000'
+		sh './testing_D_J/test.py'
             }
         }
     }
-   
 }
