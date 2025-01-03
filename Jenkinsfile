@@ -90,5 +90,10 @@ pipeline {
 		//sh './testing_D_J/test.py'
             }
         }
+	stage('aws'){
+	    steps {
+		echo 'uploagin to an instance'
+	    }
+	}
     }
 }
